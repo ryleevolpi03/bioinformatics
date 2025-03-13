@@ -1,0 +1,10 @@
+makeblastdb -in database_mystery_transcripts.fasta -dbtype nucl -out mystery_transcripts_db
+makeblastdb -in database_mystery_proteins.fasta -dbtype prot -out mystery_proteins_db
+blastn -db mystery_transcripts_db -query query_mystery_nucleotide.fasta -outfmt 7 -evalue 1e-3 -max_target_seqs 5 -out nucleotide_results.txt
+T010027234997, T010003453160, T010027234995
+cut -f1 most_similar.txt > extracted_names.txt
+blastp -db mystery_proteins_db -query query_mystery_protein.fasta -outfmt 7 -evalue 1e-5 -max_target_seqs 15 -out protein_results.txt
+Best hit ID: P010027090796
+Coffea arabica
+Gardenia jasminoides
+putative catalase
