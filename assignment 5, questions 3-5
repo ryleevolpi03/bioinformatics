@@ -1,0 +1,3 @@
+raxmlHPC -s bats_ace2.fasta -n bats_tree -m GTRGAMMA -p 12345 -x 12345 -# 100 -f a
+The closest relatives of the Flying Fox are likely other bat species, given their evolutionary history. When constructing a phylogenetic tree using ACE2 sequences, we would expect other Pteropus species (the genus to which Flying Foxes belong) or closely related bat species within Chiroptera to cluster nearby.
+This phylogenetic analysis aids conservation efforts by identifying bat species most vulnerable to habitat loss, climate change, and disease. Understanding these evolutionary relationships helps develop more effective protection strategies, ensuring the survival of key species that contribute to ecosystems through pollination and seed dispersal.
