@@ -1,0 +1,10 @@
+Species: Mus musculus (house mouse)
+Gene: Lepr (leptin receptor)
+Rank 1 target sequence and genomic location:
+    Sequence: GAGTCATCGGTTGTGTTCGGTGG
+    Location: NC_000070.7:101590538
+Primer pair to check crispant genotypes:
+    Left primer: TAGCTGCACTTAACCTGGCATA cordinates: NC_000070.7:101590479-101590501
+    Right primer: CAGTGTTGTCTGTGAGTGCAG cordinates: NC_000070.7:101590721-101590743
+Expected phenotype:
+    Knockout of Lepr results in obesity, hyperphagia (increased appetite), and insulin resistance due to disrupted leptin signaling.
